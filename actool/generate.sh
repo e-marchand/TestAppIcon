@@ -1,9 +1,13 @@
 #!/bin/bash
 
 iconPath=../TestAppIcon/AppIcon.icon
+
+basename="${iconPath##*/}"
+appIcon="${basename%.*}"
 pListName=./actool.plist
-outputdir="."
-appIcon="AppIcon"
+outputdir="./"
+
+mkdir -p "$outputdir"
 
 xcrun actool \
  --compile "$outputdir" \
