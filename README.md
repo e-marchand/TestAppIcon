@@ -21,3 +21,18 @@ This repository is a small app to test the new AppIcon behavior using Apple's [I
 Preview of the app icon as it appears in the Dock:
 
 ![Dock preview](dock.png)
+
+## Generate using actool
+
+`actool` seems to be able to generate build output
+
+```bash
+xcrun actool \
+ --compile <outputdir> 
+ --app-icon <outputIconName> \
+ --platform macosx --minimum-deployment-target 10.13 \
+ --notices --warnings --errors \
+ --output-partial-info-plist ./actool.plist \
+  <path/to/AppIcon.icon>
+
+see [actool/](actool/) for generated output
