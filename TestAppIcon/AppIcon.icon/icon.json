@@ -1,0 +1,43 @@
+{
+  "fill" : {
+    "automatic-gradient" : "display-p3:0.89106,0.42105,0.27834,1.00000"
+  },
+  "groups" : [
+    {
+      "blur-material" : null,
+      "hidden" : false,
+      "layers" : [
+        {
+          "blend-mode" : "normal",
+          "glass" : true,
+          "image-name" : "4D.svg",
+          "name" : "4D",
+          "opacity" : 1,
+          "position" : {
+            "scale" : 1.66,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "name" : "Group",
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 1
+      },
+      "specular" : true,
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.42
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
