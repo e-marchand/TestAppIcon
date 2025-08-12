@@ -6,8 +6,7 @@ This repository is a small app to test the new AppIcon behavior using Apple's [I
 
 - AppIcon package: [TestAppIcon/AppIcon.icon/](TestAppIcon/AppIcon.icon/)
   - The icon description lives in [`icon.json`](TestAppIcon/AppIcon.icon/icon.json): it defines the composition (gradient, effects, etc.) and references an SVG asset.
-  - The referenced SVG is stored in the package assets:
-    - [`TestAppIcon/AppIcon.icon/Assets/4D.svg`](TestAppIcon/AppIcon.icon/Assets/4D.svg)
+  - The referenced SVG is stored in the package assets: [`TestAppIcon/AppIcon.icon/Assets/4D.svg`](TestAppIcon/AppIcon.icon/Assets/4D.svg)
 
 ## Build outputs (observed)
 
