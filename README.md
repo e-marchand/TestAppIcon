@@ -34,5 +34,5 @@ xcrun actool \
  --notices --warnings --errors \
  --output-partial-info-plist ./actool.plist \
   <path/to/AppIcon.icon>
-
+```
 see [actool/](actool/) for generated output
