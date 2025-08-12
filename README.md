@@ -1,6 +1,6 @@
 # TestAppIcon
 
-This repository is a small app to test the new AppIcon behavior using Apple's Icon Composer.
+This repository is a small app to test the new AppIcon behavior using Apple's [Icon Composer](https://developer.apple.com/icon-composer/).
 
 ## App icon source
 
