@@ -12,7 +12,7 @@ This repository is a small app to test the new AppIcon behavior using Apple's [I
 
 - I think compiled asset catalog that appears to contain the AppIcon data for the Tahoe version of macOS:
   - `Build/TestAppIcon.app/Contents/Resources/Assets.car`
-  - Using `acextract` only default theme is extracted, see [acextract/](acextract). It's an old tool.
+  - Using `acextract` only default theme is extracted, see [acextract/](acextract). It's an old tool. Other tools show some entries in catalog talking about grandient, color, IconGroup icon stack etc...
 - Legacy `.icns` generated with only 16×16 and 128×128 variants (both 1× and 2×/Retina):
   - `Build/TestAppIcon.app/Contents/Resources/AppIcon.icns`
 
