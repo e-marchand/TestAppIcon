@@ -22,6 +22,8 @@ Preview of the app icon as it appears in the Dock:
 
 ![Dock preview](dock.png)
 
+| default | dark | clear | tinted(blue) |
+
 ## Generate using actool
 
 `actool` seems to be able to generate build output
